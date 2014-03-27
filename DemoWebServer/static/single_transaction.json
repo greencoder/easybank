@@ -1,0 +1,40 @@
+{
+  "offset":360,
+  "payments":[],
+  "transactions":[
+    {
+      "uuid":"236e1047-d8f9-42d4-8dbe-4c87d7c49578",
+      "user_id":"92737a22-5z56-1a14-b2cy-g3z1bf346227",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3916900,
+      "raw_description":"Check Hold",
+      "description":"Check Hold this is a very long string that is very long indeed",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1395746143154,
+        "when_recorded_local":"2014-03-25 11:15:43.154",
+        "when_received":1395746510825,
+        "last_modified":1395746510825,
+        "last_txvia":1395746143154
+      },
+      "amounts":{
+        "amount":13500000,
+        "cleared":13500000,
+        "fees":0,
+        "cashback":0,
+        "base":13500000
+      },
+      "calculated_balance":3916900
+    }
+  ]
+}

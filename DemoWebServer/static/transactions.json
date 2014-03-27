@@ -1,0 +1,1987 @@
+{
+  "offset":360,
+  "payments":[],
+  "transactions":[
+    {
+      "uuid":"4bf0f3e9-622e-415c-9b35-04ec2e538423",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":17416900,
+      "raw_description":"Check Hold Release",
+      "description":"Check Hold Release",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1395832536434,
+        "when_recorded_local":"2014-03-26 11:15:36.434",
+        "when_received":1395832747368,
+        "last_modified":1395832747368,
+        "last_txvia":1395832536434
+      },
+      "amounts":{
+        "amount":13500000,
+        "cleared":13500000,
+        "fees":0,
+        "cashback":0,
+        "base":13500000
+      },
+      "calculated_balance":17416900,
+      "hold_cleared":true
+    },
+    {
+      "uuid":"236e1047-d8f9-42d4-8dbe-4c87d7c49578",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3916900,
+      "raw_description":"Check Hold",
+      "description":"Check Hold",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1395746143154,
+        "when_recorded_local":"2014-03-25 11:15:43.154",
+        "when_received":1395746510825,
+        "last_modified":1395746510825,
+        "last_txvia":1395746143154
+      },
+      "amounts":{
+        "amount":13500000,
+        "cleared":13500000,
+        "fees":0,
+        "cashback":0,
+        "base":13500000
+      },
+      "calculated_balance":3916900,
+      "hold_cleared":true
+    },
+    {
+      "uuid":"94953322-7aa0-4199-b19b-fc472810891a",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":17416900,
+      "raw_description":"MOBILE CK DEPOSIT",
+      "description":"Mobile Check Deposit",
+      "categories":[
+        {
+          "uuid":"45",
+          "name":"Cash",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1395746143112,
+        "when_recorded_local":"2014-03-25 11:15:43.112",
+        "when_received":1395746510825,
+        "last_modified":1395814267933,
+        "last_txvia":1395746143112
+      },
+      "amounts":{
+        "amount":15500000,
+        "cleared":15500000,
+        "fees":0,
+        "cashback":0,
+        "base":15500000
+      },
+      "memo":"This is a long memo, a very long memo indeed. #breakfast #brunch",
+      "labels":[
+        "breakfast",
+        "brunch"
+      ],
+      "geo":{},
+      "calculated_balance":17416900
+    },
+    {
+      "uuid":"12f8c9cb-19f2-4c5b-a778-a0b646c1402a",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":1916900,
+      "raw_description":"SUNRISE ASIAN CUISINE AND",
+      "description":"Sunrise Asian Cuisine And",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"76",
+          "name":"Restaurants",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "city":"Aurora",
+        "state":"Colorado",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1395532463651,
+        "when_recorded_local":"2014-03-22 17:54:23.651",
+        "when_received":1395532974267,
+        "last_modified":1395814294270,
+        "last_txvia":1395634965989
+      },
+      "amounts":{
+        "amount":132300,
+        "cleared":132300,
+        "fees":0,
+        "cashback":0,
+        "base":132300
+      },
+      "memo":"Should be 13.23",
+      "calculated_balance":1916900
+    },
+    {
+      "uuid":"6551f7b3-e47f-4766-b72c-a384fe82888d",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_return",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":2049200,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1394915062094,
+        "when_recorded_local":"2014-03-15 14:24:22.094",
+        "when_received":1394915270986,
+        "last_modified":1394915270986,
+        "last_txvia":1394915062094
+      },
+      "amounts":{
+        "amount":215700,
+        "cleared":215700,
+        "fees":0,
+        "cashback":0,
+        "base":215700
+      },
+      "calculated_balance":2049200
+    },
+    {
+      "uuid":"ed4bf743-e317-4424-9616-904108f2c45e",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":1833500,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1393688620323,
+        "when_recorded_local":"2014-03-01 08:43:40.323",
+        "when_received":1393688736575,
+        "last_modified":1393818993503,
+        "last_txvia":1393688620323
+      },
+      "amounts":{
+        "amount":230500,
+        "cleared":230500,
+        "fees":0,
+        "cashback":0,
+        "base":230500
+      },
+      "calculated_balance":1833500
+    },
+    {
+      "uuid":"be99113b-e1f1-4530-ac30-9f6e601070d5",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":1833500,
+      "raw_description":"CHICK-FIL-A #01579       ",
+      "description":"Chick-fil-A",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"2106b1f9f347cfd9fec2a263309fa1b855fe845e",
+        "street":"24400 E Smoky Hill Rd",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.59563,
+        "lon":-104.70363,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1393687026767,
+        "when_recorded_local":"2014-03-01 08:17:06.767",
+        "when_received":1393687330381,
+        "last_modified":1393818993503,
+        "last_txvia":1393818607017
+      },
+      "amounts":{
+        "amount":106200,
+        "cleared":106200,
+        "fees":0,
+        "cashback":0,
+        "base":106200
+      },
+      "calculated_balance":2064000
+    },
+    {
+      "uuid":"090a3332-0ce1-4344-8f3c-cb859f0c71a3",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"ACH",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":2170200,
+      "raw_description":"INTEREST CREDIT",
+      "description":"Interest Credit",
+      "categories":[
+        {
+          "uuid":"199",
+          "name":"Interest",
+          "folder":"Income"
+        }
+      ],
+      "times":{
+        "when_recorded":1393676242484,
+        "when_recorded_local":"2014-03-01 12:17:22.484",
+        "when_received":1393676626982,
+        "last_modified":1393676626982,
+        "last_txvia":1393676242484
+      },
+      "amounts":{
+        "amount":100,
+        "cleared":100,
+        "fees":0,
+        "cashback":0,
+        "base":100
+      },
+      "calculated_balance":2170200
+    },
+    {
+      "uuid":"a3ac9e3a-3db2-4b72-ab1b-44e1aeb291a3",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":2170100,
+      "raw_description":"RADIOSHACK COR           ",
+      "description":"RadioShack",
+      "categories":[
+        {
+          "uuid":"101",
+          "name":"Music",
+          "folder":"Culture"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:RADIOSHACK COR           ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392669286624,
+        "when_recorded_local":"2014-02-17 13:34:46.624",
+        "when_received":1392669793259,
+        "last_modified":1392748130869,
+        "last_txvia":1392669286624
+      },
+      "amounts":{
+        "amount":123900,
+        "cleared":123900,
+        "fees":0,
+        "cashback":0,
+        "base":123900
+      },
+      "calculated_balance":2170100
+    },
+    {
+      "uuid":"6a419876-e305-4b85-8242-3ff0954dc5b9",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":2294000,
+      "raw_description":"Wal-Mart Super Center    ",
+      "description":"Walmart",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:0000000000     :Wal-Mart Super Center    ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392593341376,
+        "when_recorded_local":"2014-02-16 16:29:01.376",
+        "when_received":1392593614110,
+        "last_modified":1392748130869,
+        "last_txvia":1392593341376
+      },
+      "amounts":{
+        "amount":950200,
+        "cleared":950200,
+        "fees":0,
+        "cashback":0,
+        "base":950200
+      },
+      "calculated_balance":2294000
+    },
+    {
+      "uuid":"de8d1508-2ec0-45ac-8737-59311e5df10f",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3244200,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392505097578,
+        "when_recorded_local":"2014-02-15 15:58:17.578",
+        "when_received":1392505369473,
+        "last_modified":1392748130869,
+        "last_txvia":1392505097578
+      },
+      "amounts":{
+        "amount":428200,
+        "cleared":428200,
+        "fees":0,
+        "cashback":0,
+        "base":428200
+      },
+      "calculated_balance":3244200
+    },
+    {
+      "uuid":"7c9ae79e-e450-43da-9702-d289bbbd3611",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3672400,
+      "raw_description":"SAMSCLUB 4816 GAS        ",
+      "description":"Sam's Club",
+      "categories":[
+        {
+          "uuid":"157",
+          "name":"Gas",
+          "folder":"Transportation"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:SAMSCLUB 4816 GAS        ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392369251155,
+        "when_recorded_local":"2014-02-14 02:14:11.155",
+        "when_received":1392369646660,
+        "last_modified":1392748130869,
+        "last_txvia":1392369251155
+      },
+      "amounts":{
+        "amount":330500,
+        "cleared":330500,
+        "fees":0,
+        "cashback":0,
+        "base":330500
+      },
+      "calculated_balance":3672400
+    },
+    {
+      "uuid":"9db1cab1-e74d-46d5-a3d8-8c10ac3ca778",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":4002900,
+      "raw_description":"Wal-Mart Super Center    ",
+      "description":"Walmart",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:0000000000     :Wal-Mart Super Center    ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392313113173,
+        "when_recorded_local":"2014-02-13 10:38:33.173",
+        "when_received":1392313234880,
+        "last_modified":1392602998019,
+        "last_txvia":1392313113173
+      },
+      "amounts":{
+        "amount":247600,
+        "cleared":247600,
+        "fees":0,
+        "cashback":0,
+        "base":247600
+      },
+      "calculated_balance":4002900
+    },
+    {
+      "uuid":"a97be5c8-d6fd-4003-8e0f-f21e41d8f23c",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3422400,
+      "raw_description":"CHICK-FIL-A #01579       ",
+      "description":"Chick-fil-A",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"2106b1f9f347cfd9fec2a263309fa1b855fe845e",
+        "street":"24400 E Smoky Hill Rd",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.59563,
+        "lon":-104.70363,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392311565091,
+        "when_recorded_local":"2014-02-13 10:12:45.091",
+        "when_received":1392311900896,
+        "last_modified":1392602998019,
+        "last_txvia":1392435705552
+      },
+      "amounts":{
+        "amount":92200,
+        "cleared":92200,
+        "fees":0,
+        "cashback":0,
+        "base":92200
+      },
+      "calculated_balance":4250500
+    },
+    {
+      "uuid":"9bb86f18-c479-449c-bc93-d1fef93a8840",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3422400,
+      "raw_description":"CENTURA HEALTH SOUTHLANDS",
+      "description":"Centura Health at Southlands",
+      "categories":[
+        {
+          "uuid":"47",
+          "name":"Other",
+          "folder":"Health & Medical"
+        }
+      ],
+      "geo":{
+        "source_id":"1a7184bde42fb38acea311018179f72d9c068f98",
+        "street":"6240 S Main St #225",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.603259,
+        "lon":-104.70861,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392306119969,
+        "when_recorded_local":"2014-02-13 08:41:59.969",
+        "when_received":1392306581649,
+        "last_modified":1392602998019,
+        "last_txvia":1392392019295
+      },
+      "amounts":{
+        "amount":200000,
+        "cleared":200000,
+        "fees":0,
+        "cashback":0,
+        "base":200000
+      },
+      "calculated_balance":4342700
+    },
+    {
+      "uuid":"ef3964d9-2198-4f39-94fa-388ed9297dfd",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":4542700,
+      "raw_description":"SAMSCLUB 4816 GAS        ",
+      "description":"Sam's Club",
+      "categories":[
+        {
+          "uuid":"157",
+          "name":"Gas",
+          "folder":"Transportation"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:00000000000000000:SAMSCLUB 4816 GAS        ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392193924736,
+        "when_recorded_local":"2014-02-12 01:32:04.736",
+        "when_received":1392194613984,
+        "last_modified":1392602998019,
+        "last_txvia":1392193924736
+      },
+      "amounts":{
+        "amount":319100,
+        "cleared":319100,
+        "fees":0,
+        "cashback":0,
+        "base":319100
+      },
+      "calculated_balance":4542700
+    },
+    {
+      "uuid":"9a9dbda9-fc83-4048-bc65-acc96a93e106",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":4542700,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392170869587,
+        "when_recorded_local":"2014-02-11 19:07:49.587",
+        "when_received":1392171261306,
+        "last_modified":1392602998019,
+        "last_txvia":1392170869587
+      },
+      "amounts":{
+        "amount":589100,
+        "cleared":589100,
+        "fees":0,
+        "cashback":0,
+        "base":589100
+      },
+      "calculated_balance":4861800
+    },
+    {
+      "uuid":"72ebca26-a7a1-4349-9078-fdd68cc523ca",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":5450900,
+      "raw_description":"LOWE'S #2780             ",
+      "description":"Lowe's",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "geo":{
+        "source_id":"756050a58549aee0f79ad4a850818615da04673a",
+        "street":"24505 S Wheatlands Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.597756,
+        "lon":-104.703355,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1392168928108,
+        "when_recorded_local":"2014-02-11 18:35:28.108",
+        "when_received":1392169701017,
+        "last_modified":1392169701017,
+        "last_txvia":1392168928108
+      },
+      "amounts":{
+        "amount":113300,
+        "cleared":113300,
+        "fees":0,
+        "cashback":0,
+        "base":113300
+      },
+      "calculated_balance":5450900
+    },
+    {
+      "uuid":"5927ae8a-1bc6-4235-9895-a2489a31e8ca",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":5564200,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"Colorado",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.7048997879028",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391984949308,
+        "when_recorded_local":"2014-02-09 15:29:09.308",
+        "when_received":1391985444636,
+        "last_modified":1395893762195,
+        "last_txvia":1391984949308
+      },
+      "amounts":{
+        "amount":340000,
+        "cleared":340000,
+        "fees":0,
+        "cashback":0,
+        "base":340000
+      },
+      "calculated_balance":5564200
+    },
+    {
+      "uuid":"0cfa18dc-e226-40e0-be7d-8636670dfce6",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":5904200,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391903887092,
+        "when_recorded_local":"2014-02-08 16:58:07.092",
+        "when_received":1391904513553,
+        "last_modified":1391922379104,
+        "last_txvia":1391903887092
+      },
+      "amounts":{
+        "amount":428400,
+        "cleared":428400,
+        "fees":0,
+        "cashback":0,
+        "base":428400
+      },
+      "calculated_balance":5904200
+    },
+    {
+      "uuid":"fb568014-b7e5-4dbf-a0dc-25becddb0a81",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":5904200,
+      "raw_description":"STARBUCKS #05299 LITTLETO",
+      "description":"Starbucks",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"488e67f10bd49cbcd7b2c89f7b4b88e06c0936d9",
+        "street":"9551 S University Blvd",
+        "city":"Littleton",
+        "state":"CO",
+        "zip":"80124",
+        "lat":39.542595,
+        "lon":-104.944233,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391899780382,
+        "when_recorded_local":"2014-02-08 15:49:40.382",
+        "when_received":1391900090324,
+        "last_modified":1391922379104,
+        "last_txvia":1391922325729
+      },
+      "amounts":{
+        "amount":192500,
+        "cleared":192500,
+        "fees":0,
+        "cashback":0,
+        "base":192500
+      },
+      "calculated_balance":6332600
+    },
+    {
+      "uuid":"17f6b26f-18a6-40a6-951f-0c8acc5c6f14",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":6525100,
+      "raw_description":"CONTAINERSTOREDENVERSO   ",
+      "description":"Containerstoredenverso",
+      "categories":[
+        {
+          "uuid":"84",
+          "name":"Other Shopping",
+          "folder":"Uncategorized"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000   :CONTAINERSTOREDENVERSO   ",
+        "street":"",
+        "city":"Denver",
+        "state":"CO",
+        "zip":"80124",
+        "lat":"39.646959499999994",
+        "lon":"-104.88629499999999",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391898079994,
+        "when_recorded_local":"2014-02-08 15:21:19.994",
+        "when_received":1391898319488,
+        "last_modified":1391898319488,
+        "last_txvia":1391898079994
+      },
+      "amounts":{
+        "amount":522200,
+        "cleared":522200,
+        "fees":0,
+        "cashback":0,
+        "base":522200
+      },
+      "calculated_balance":6525100
+    },
+    {
+      "uuid":"da7c1ba9-500e-42f7-ad08-7229e78a8b9e",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7047300,
+      "raw_description":"LOWE'S #2780             ",
+      "description":"Lowe's",
+      "memo":"Volt meter",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "geo":{
+        "street":"24505 S Wheatlands Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391708302680,
+        "when_recorded_local":"2014-02-06 10:38:22.68",
+        "when_received":1391708347208,
+        "last_modified":1391817850463,
+        "last_txvia":1391708302680
+      },
+      "amounts":{
+        "amount":377800,
+        "cleared":377800,
+        "fees":0,
+        "cashback":0,
+        "base":377800
+      },
+      "frequency":{},
+      "calculated_balance":7047300
+    },
+    {
+      "uuid":"05e1cb29-cc6d-4d83-9303-c661f12af5a8",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7425100,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391707662815,
+        "when_recorded_local":"2014-02-06 10:27:42.815",
+        "when_received":1391708347208,
+        "last_modified":1391742608499,
+        "last_txvia":1391707662815
+      },
+      "amounts":{
+        "amount":201400,
+        "cleared":201400,
+        "fees":0,
+        "cashback":0,
+        "base":201400
+      },
+      "calculated_balance":7425100
+    },
+    {
+      "uuid":"b93a13d4-2833-4e0e-b1c3-8e192b8a4e97",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7047300,
+      "raw_description":"WOODY CREEK BAKERY & C   ",
+      "description":"Skyport Development Comp",
+      "memo":"Woody Creek",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"76",
+          "name":"Restaurants",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000   :WOODY CREEK BAKERY & C   ",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.593677,
+        "lon":-104.701606,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391705789105,
+        "when_recorded_local":"2014-02-06 09:56:29.105",
+        "when_received":1391706236067,
+        "last_modified":1391742608499,
+        "last_txvia":1391742213349
+      },
+      "amounts":{
+        "amount":104800,
+        "cleared":104800,
+        "fees":0,
+        "cashback":0,
+        "base":104800
+      },
+      "calculated_balance":7626500
+    },
+    {
+      "uuid":"c5062cfd-0517-4527-a639-7dac26ead3ea",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7026400,
+      "raw_description":"UNITED      0162925634424",
+      "description":"United Way of Greater Houston",
+      "memo":"United in-flight snack",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"38",
+          "name":"Flights",
+          "folder":"Travel"
+        }
+      ],
+      "geo":{
+        "street":"50 Waugh Dr",
+        "city":"",
+        "state":"TX",
+        "zip":"77002",
+        "timezone":"America/Chicago"
+      },
+      "times":{
+        "when_recorded":1391653500548,
+        "when_recorded_local":"2014-02-05 20:25:00.548",
+        "when_received":1391653860547,
+        "last_modified":1391789378816,
+        "last_txvia":1391716387345
+      },
+      "amounts":{
+        "amount":89900,
+        "cleared":89900,
+        "fees":0,
+        "cashback":0,
+        "base":89900
+      },
+      "frequency":{},
+      "calculated_balance":7731300
+    },
+    {
+      "uuid":"c1f6618e-2962-49c1-96f7-f13c19cb2ba0",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7026400,
+      "raw_description":"PARADIES # 391     Q02   ",
+      "description":"Paradies",
+      "memo":"Airport snacks",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"54",
+          "name":"News",
+          "folder":"Culture"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:PARADIES # 391     Q02   ",
+        "street":"",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20001",
+        "lat":38.910817,
+        "lon":-77.017908,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391632810426,
+        "when_recorded_local":"2014-02-05 15:40:10.426",
+        "when_received":1391632985823,
+        "last_modified":1391726652215,
+        "last_txvia":1391726567444
+      },
+      "amounts":{
+        "amount":41100,
+        "cleared":41100,
+        "fees":0,
+        "cashback":0,
+        "base":41100
+      },
+      "calculated_balance":7821200
+    },
+    {
+      "uuid":"3ebfa539-7d8d-43b9-bea8-9634fb409426",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7731300,
+      "raw_description":"TAYLOR GOURMET 1200 19TH ",
+      "description":"Taylor Gourmet",
+      "memo":"Should be 22.19",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"76",
+          "name":"Restaurants",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"743c21db1f4845bbbb64c315e0a4f8db112ec539",
+        "street":"485 K St NW",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.902617,
+        "lon":-77.018377,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391621287211,
+        "when_recorded_local":"2014-02-05 12:28:07.211",
+        "when_received":1391621341365,
+        "last_modified":1391701191951,
+        "last_txvia":1391677831658
+      },
+      "amounts":{
+        "amount":226600,
+        "cleared":226600,
+        "fees":0,
+        "cashback":0,
+        "base":226600
+      },
+      "calculated_balance":7862300
+    },
+    {
+      "uuid":"74fc99db-d9a0-4c83-8333-05581d2597e6",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7731300,
+      "raw_description":"NGS   SODEXO  30075030   ",
+      "description":"Ngs Sodexo",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:NGS   SODEXO  30075030   ",
+        "street":"",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.907017,
+        "lon":-77.041569,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391613285128,
+        "when_recorded_local":"2014-02-05 10:14:45.128",
+        "when_received":1391613552332,
+        "last_modified":1391701191951,
+        "last_txvia":1391700703912
+      },
+      "amounts":{
+        "amount":16400,
+        "cleared":16400,
+        "fees":0,
+        "cashback":0,
+        "base":16400
+      },
+      "calculated_balance":8088900
+    },
+    {
+      "uuid":"8ba3dcfb-310f-4080-9de4-6e4a2721dbb7",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7775900,
+      "raw_description":"CITY PLACE CAFE          ",
+      "description":"City Place Cafe",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"fd605793ea2f1a01ee96cfb4ab394d0d81a5e778",
+        "street":"1101 17th St NW",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.904116,
+        "lon":-77.038294,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391609479905,
+        "when_recorded_local":"2014-02-05 09:11:19.905",
+        "when_received":1391609709046,
+        "last_modified":1391646878084,
+        "last_txvia":1391646690882
+      },
+      "amounts":{
+        "amount":77300,
+        "cleared":77300,
+        "fees":0,
+        "cashback":0,
+        "base":77300
+      },
+      "calculated_balance":8105300
+    },
+    {
+      "uuid":"d94dff6e-35ab-4961-af5d-9bfd0534888e",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":7775900,
+      "raw_description":"JIMMY JOHNS - 1350       ",
+      "description":"Jimmy John's",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"d8f89a8abc2a9eb7848a6fa529d319034abec3f9",
+        "street":"1101 14th St NW #103",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20005",
+        "lat":38.904039,
+        "lon":-77.031768,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391559835400,
+        "when_recorded_local":"2014-02-04 19:23:55.4",
+        "when_received":1391560065722,
+        "last_modified":1391644261346,
+        "last_txvia":1391644062877
+      },
+      "amounts":{
+        "amount":102300,
+        "cleared":102300,
+        "fees":0,
+        "cashback":0,
+        "base":102300
+      },
+      "calculated_balance":8182600
+    },
+    {
+      "uuid":"ec084200-e662-4882-81cd-ec07cbb864fd",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8182600,
+      "raw_description":"TAYLOR GOURMET 1200 19TH ",
+      "description":"Taylor Gourmet",
+      "categories":[
+        {
+          "uuid":"76",
+          "name":"Restaurants",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"743c21db1f4845bbbb64c315e0a4f8db112ec539",
+        "street":"485 K St NW",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.902617,
+        "lon":-77.018377,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391540254107,
+        "when_recorded_local":"2014-02-04 13:57:34.107",
+        "when_received":1391540525530,
+        "last_modified":1391614874816,
+        "last_txvia":1391591432294
+      },
+      "amounts":{
+        "amount":108900,
+        "cleared":108900,
+        "fees":0,
+        "cashback":0,
+        "base":108900
+      },
+      "calculated_balance":8284900
+    },
+    {
+      "uuid":"c8c4ce5d-686e-434f-aef4-cd34e6839a15",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8088900,
+      "raw_description":"NGS   SODEXO  30075030   ",
+      "description":"Ngs Sodexo",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:NGS   SODEXO  30075030   ",
+        "street":"",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.907017,
+        "lon":-77.041569,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391522634091,
+        "when_recorded_local":"2014-02-04 09:03:54.091",
+        "when_received":1391522674204,
+        "last_modified":1391614874816,
+        "last_txvia":1391614482504
+      },
+      "amounts":{
+        "amount":69900,
+        "cleared":69900,
+        "fees":0,
+        "cashback":0,
+        "base":69900
+      },
+      "calculated_balance":8393800
+    },
+    {
+      "uuid":"739b1ab4-2d70-4d59-b578-ce6d2692d971",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8463700,
+      "raw_description":"PEI WEI ASIAN DINER 05   ",
+      "description":"Pei Wei Asian Diner",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000   :PEI WEI ASIAN DINER 05   ",
+        "street":"",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.907017,
+        "lon":-77.041569,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391466390491,
+        "when_recorded_local":"2014-02-03 17:26:30.491",
+        "when_received":1391466529578,
+        "last_modified":1391528025411,
+        "last_txvia":1391499045947
+      },
+      "amounts":{
+        "amount":137200,
+        "cleared":137200,
+        "fees":0,
+        "cashback":0,
+        "base":137200
+      },
+      "calculated_balance":8463700
+    },
+    {
+      "uuid":"4cddca98-6496-46cc-a497-c0654463a512",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8393800,
+      "raw_description":"NGS   SODEXO  30075030   ",
+      "description":"Ngs Sodexo",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000000:NGS   SODEXO  30075030   ",
+        "street":"",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.907017,
+        "lon":-77.041569,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391437361130,
+        "when_recorded_local":"2014-02-03 09:22:41.13",
+        "when_received":1391437423010,
+        "last_modified":1391528025411,
+        "last_txvia":1391527889899
+      },
+      "amounts":{
+        "amount":140300,
+        "cleared":140300,
+        "fees":0,
+        "cashback":0,
+        "base":140300
+      },
+      "calculated_balance":8600900
+    },
+    {
+      "uuid":"40b9cd63-c367-4628-9ac7-4e562d308407",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8741200,
+      "raw_description":"CVS 02817 02817--1418 P S",
+      "description":"Cvs 02817 02817 1418 P S",
+      "categories":[
+        {
+          "uuid":"145",
+          "name":"Pharmacies",
+          "folder":"Health & Medical"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:000000000000   :CVS 02817 02817--1418 P S",
+        "street":"02817 02817 1418 P S",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"",
+        "lat":38.904149,
+        "lon":-77.017094,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391382155837,
+        "when_recorded_local":"2014-02-02 18:02:35.837",
+        "when_received":1391382418688,
+        "last_modified":1391454409150,
+        "last_txvia":1391382155837
+      },
+      "amounts":{
+        "amount":50600,
+        "cleared":50600,
+        "fees":0,
+        "cashback":0,
+        "base":50600
+      },
+      "calculated_balance":8741200
+    },
+    {
+      "uuid":"34c1138b-bf99-4bd2-95d3-b9cae313147c",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8600900,
+      "raw_description":"CAPRIOTTI'S              ",
+      "description":"Capriotti's Sandwich Shop",
+      "categories":[
+        {
+          "uuid":"76",
+          "name":"Restaurants",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"7c8b77c0e2524eb87d390adf5ccd5a4f062d36b4",
+        "street":"1800 M St NW",
+        "city":"Washington",
+        "state":"DC",
+        "zip":"20036",
+        "lat":38.905259,
+        "lon":-77.041959,
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391378216847,
+        "when_recorded_local":"2014-02-02 16:56:56.847",
+        "when_received":1391378669322,
+        "last_modified":1391454409150,
+        "last_txvia":1391453968801
+      },
+      "amounts":{
+        "amount":148200,
+        "cleared":148200,
+        "fees":0,
+        "cashback":0,
+        "base":148200
+      },
+      "calculated_balance":8791800
+    },
+    {
+      "uuid":"3d39e730-2595-441c-aeb2-368edf05adbd",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":8711600,
+      "raw_description":"MCDONALD'S F13573        ",
+      "description":"McDonald's",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"f375e3a5a2d7a499125d5a387ca361d666b8a18f",
+        "street":"8700 Pena Blvd # 13570",
+        "city":"Denver",
+        "state":"CO",
+        "zip":"80249",
+        "lat":39.849312,
+        "lon":-104.673829,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391358144402,
+        "when_recorded_local":"2014-02-02 09:22:24.402",
+        "when_received":1391358648773,
+        "last_modified":1391420138824,
+        "last_txvia":1391420008882
+      },
+      "amounts":{
+        "amount":105300,
+        "cleared":105300,
+        "fees":0,
+        "cashback":0,
+        "base":105300
+      },
+      "calculated_balance":8940000
+    },
+    {
+      "uuid":"a6e76768-a808-4c12-80c0-77dc91cca480",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"bill_payment",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":9045300,
+      "raw_description":"Payment for f4271bc14c1e #0652, Online Banking, Chantilly, VA 20151",
+      "description":"Check to Bob Smith CPA",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "geo":{
+        "street":"100 W. Kennedy Blvd",
+        "city":"Tampa",
+        "state":"FL",
+        "zip":"33609",
+        "timezone":"America/New_York"
+      },
+      "times":{
+        "when_recorded":1391343191582,
+        "when_recorded_local":"2014-02-02 07:13:11.582",
+        "when_received":1391343336674,
+        "last_modified":1391343336674,
+        "last_txvia":1391343191582
+      },
+      "amounts":{
+        "amount":850000,
+        "cleared":850000,
+        "fees":0,
+        "cashback":0,
+        "base":850000
+      },
+      "calculated_balance":9045300
+    },
+    {
+      "uuid":"e90fbc72-b728-4918-8d27-d3ccbc4ebccd",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":9895300,
+      "raw_description":"WAL-MART #5137           ",
+      "description":"Walmart Supercenter",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"FoursquarePlace:4b8ddb4cf964a520de1033e3",
+        "street":"6101 S Aurora Pkwy",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":"39.60486157025881",
+        "lon":"-104.70489978790283",
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391295773866,
+        "when_recorded_local":"2014-02-01 16:02:53.866",
+        "when_received":1391296134206,
+        "last_modified":1391296134206,
+        "last_txvia":1391295773866
+      },
+      "amounts":{
+        "amount":1522400,
+        "cleared":1522400,
+        "fees":0,
+        "cashback":0,
+        "base":1522400
+      },
+      "calculated_balance":9895300
+    },
+    {
+      "uuid":"b4d9dda0-dc65-46ff-9aff-ca4cfd4e9140",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":11417700,
+      "raw_description":"Check Hold Release",
+      "description":"Check Hold Release",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1391257054369,
+        "when_recorded_local":"2014-02-01 12:17:34.369",
+        "when_received":1391257226519,
+        "last_modified":1391257226519,
+        "last_txvia":1391257054369
+      },
+      "amounts":{
+        "amount":8000000,
+        "cleared":8000000,
+        "fees":0,
+        "cashback":0,
+        "base":8000000
+      },
+      "calculated_balance":11417700,
+      "hold_cleared":true
+    },
+    {
+      "uuid":"2c2447b5-9d43-4c33-95e0-5c346c1473ef",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":3417700,
+      "raw_description":"Check Hold",
+      "description":"Check Hold",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1391170523714,
+        "when_recorded_local":"2014-01-31 12:15:23.714",
+        "when_received":1391170737107,
+        "last_modified":1391170737107,
+        "last_txvia":1391170523714
+      },
+      "amounts":{
+        "amount":8000000,
+        "cleared":8000000,
+        "fees":0,
+        "cashback":0,
+        "base":8000000
+      },
+      "calculated_balance":3417700,
+      "hold_cleared":true
+    },
+    {
+      "uuid":"0f282118-863e-48c0-a70f-61e4caa44b14",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"ACH",
+      "transaction_type":"check_deposit",
+      "bookkeeping_type":"credit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":11417700,
+      "raw_description":"MOBILE CK DEPOSIT",
+      "description":"Mobile Check Deposit",
+      "categories":[
+        {
+          "uuid":"44",
+          "name":"Unknown",
+          "folder":"Uncategorized"
+        }
+      ],
+      "times":{
+        "when_recorded":1391170523694,
+        "when_recorded_local":"2014-01-31 12:15:23.694",
+        "when_received":1391170737107,
+        "last_modified":1391170737107,
+        "last_txvia":1391170523694
+      },
+      "amounts":{
+        "amount":10000000,
+        "cleared":10000000,
+        "fees":0,
+        "cashback":0,
+        "base":10000000
+      },
+      "calculated_balance":11417700
+    },
+    {
+      "uuid":"59723511-abc9-4bef-983e-017e8b03c285",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"signature_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":1417700,
+      "raw_description":"STARBUCKS #10632 AURORA  ",
+      "description":"Starbucks",
+      "categories":[
+        {
+          "uuid":"208",
+          "name":"Fast Food",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"44a8538dbd36013bb6e4d605d840d1702c3d934b",
+        "street":"7400 S Gartrell Rd",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"80016",
+        "lat":39.581269,
+        "lon":-104.722199,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391120934931,
+        "when_recorded_local":"2014-01-30 15:28:54.931",
+        "when_received":1391121275469,
+        "last_modified":1391138256228,
+        "last_txvia":1391138003456
+      },
+      "amounts":{
+        "amount":295500,
+        "cleared":295500,
+        "fees":0,
+        "cashback":0,
+        "base":295500
+      },
+      "calculated_balance":1417700
+    },
+    {
+      "uuid":"9c077e04-a03c-4f78-b7e2-5b1a0fe4b6d8",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":1713200,
+      "raw_description":"TARGET T1976 TARGET T1976",
+      "description":"Target",
+      "categories":[
+        {
+          "uuid":"182",
+          "name":"Groceries",
+          "folder":"Food & Drink"
+        }
+      ],
+      "geo":{
+        "source_id":"Visa:00000000       :TARGET T1976 TARGET T1976",
+        "street":"",
+        "city":"Aurora",
+        "state":"CO",
+        "zip":"",
+        "lat":39.688002,
+        "lon":-104.68974,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391120631243,
+        "when_recorded_local":"2014-01-30 15:23:51.243",
+        "when_received":1391120634617,
+        "last_modified":1391120634617,
+        "last_txvia":1391120631243
+      },
+      "amounts":{
+        "amount":527100,
+        "cleared":527100,
+        "fees":0,
+        "cashback":0,
+        "base":527100
+      },
+      "calculated_balance":1713200
+    },
+    {
+      "uuid":"79ce5d1f-30ad-4a2b-a9a5-076b7c65c993",
+      "user_id":"00000000-0000-0000-0000-000000000000",
+      "record_type":"JOURNALENTRY",
+      "transaction_type":"pin_purchase",
+      "bookkeeping_type":"debit",
+      "is_hold":false,
+      "is_active":true,
+      "running_balance":2240300,
+      "raw_description":"PETSMART INC 1421        ",
+      "description":"PetSmart",
+      "memo":"Black light",
+      "labels":[
+        ""
+      ],
+      "categories":[
+        {
+          "uuid":"191",
+          "name":"Pet Food",
+          "folder":"Pets"
+        }
+      ],
+      "geo":{
+        "street":"7350 S Gartrell Rd",
+        "city":"Aurora",
+        "state":"Colorado",
+        "zip":"80016",
+        "lat":39.582643,
+        "lon":-104.720957,
+        "timezone":"America/Denver"
+      },
+      "times":{
+        "when_recorded":1391119225198,
+        "when_recorded_local":"2014-01-30 15:00:25.198",
+        "when_received":1391119351642,
+        "last_modified":1391120592467,
+        "last_txvia":1391119225198
+      },
+      "amounts":{
+        "amount":302300,
+        "cleared":302300,
+        "fees":0,
+        "cashback":0,
+        "base":302300
+      },
+      "calculated_balance":2240300
+    }
+  ]
+}
